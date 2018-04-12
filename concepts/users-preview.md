@@ -1,16 +1,16 @@
 # Users overview
 
-Users are the representation of an Azure Active Directory user account in Microsoft Graph. The User resource lets you explore the group and organizational relationships of a user as well as access and create user messages, contacts, and files.
+Users are the representation of an Azure Active Directory user account in Microsoft Graph. The Users entity in Microsoft Graph is a hub from which you can access the relationships and resources relevant to your users.
 
-## Why users?
+![Users overview image](images/users.png)
 
-### User relationships and data 
+## Develop user-centric applications
 
-Access user elationships, information, and data allow you to build applications and user workflows that are personalized and immediately relevant to the user.
+Build applications that are aware of a user's relationships, information, and preferences by working with the User entity associated with the current user of your application.
 
-The Microsoft Graph Users entity has resources that let you access these relationships and data in the context of a user. The returned Graph entities from these resources-such as messages, contacts, and groups-that you can review and act on in your application. 
+The Microsoft Graph Users entity lets you access the relationships and data associated with a user. The returned Graph entities from these resources-such as messages, contacts, and groups-that you can review and act on in your application. 
 
-To get permissions to access a user's information and data, you'll need to [get access on their behalf](https://developer.microsoft.com/graph/docs/concepts/auth_v2_user) before using the Users resource.
+To get to access a user's information and data, you'll need to [get access on their behalf](https://developer.microsoft.com/graph/docs/concepts/auth_v2_user) before using the Users resource. Authenticating your with application with [admin consent](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference) enables you to work with and update with a wider range of entities associated with a user.
 
 ### Manage users in your organization
 
@@ -36,6 +36,12 @@ Users provides resources to configure user mail settings and contact lists and t
 - List mail messages and send new mail.
 - Create and list user contacts and organize contacts in folders.
 - Retrieve and update mailbox folders and settings.
+
+### Enrich your app with user insights
+
+- Return recently viewed and modified documents by a user.
+- Return documents and sites trending around a user's activity.
+- List documents shared with a user through email or OneDrive for Business.
 
 ## Next steps
 
