@@ -21,13 +21,14 @@ Create new users in your organization or update the resources and relationships 
 - List the users who report to a user and assign managers to a user.
 - Upload or retrieve a photo for the user.
 
-### Work with user calendars
+### Work with user calendars and tasks
 
 Users has direct resources that let you view, query, and update user calendar and calendar groups
 
 - List and create events on a users calendar.
+- View assigned tasks to a user.
 - Find free meeting times for a set of users.
-- Get a list of reminders set on a user's calendar.
+- Get a list of reminders set on a user's calendar 
 
 ### Administer mail and handle contacts
 
